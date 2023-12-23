@@ -1,0 +1,8 @@
+- name: "Grub"
+  description: "Installs the GRUB bootloader"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - grub
+    - grub-btrfs

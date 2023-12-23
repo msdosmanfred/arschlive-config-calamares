@@ -1,0 +1,112 @@
+- name: "KDE Plasma"
+  descriptionn: "Installs the KDE Plasma desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - plasma-meta
+    - breeze-grub
+    - breeze-plymouth
+    - flatpak-kcm
+    - plymouth-kcm
+    - plasma-sdk
+    - kde-utilities-meta
+    - kde-system-meta
+    - kde-sdk-meta
+    - kde-pim-meta
+    - kde-office-meta
+    - kde-network-meta
+    - kde-multimedia-meta
+    - kde-graphics-meta
+    - kde-games-meta
+    - kde-education-meta
+    - kde-development-environment-meta
+    - kde-applications-meta
+    - kde-accessibility-meta
+    - sddm
+    - sddm-kcm
+- name: "GNOME"
+  description: "Installs the GNOME Shell desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - gnome
+    - gnome-extra
+- name: "Xfce"
+  description: "Installs the Xfce desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - xfce4
+    - xfce4-goodies
+    - lightdm
+    - lightdm-gtk-greeter
+    - accountsservice
+- name: "MATE"
+  description: "Installs the MATE desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - mate
+    - mate-extra
+    - lightdm
+    - lightdm-gtk-greeter
+    - accountsservice
+- name: "Cinnamon"
+  description: "Installs the Cinnamon desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - cinnamon
+    - cinnamon-control-center
+    - cinnamon-desktop
+    - cinnamon-menus
+    - cinnamon-screensaver
+    - cinnamon-session
+    - cinnamon-settings-daemon
+    - cinnamon-translations
+    - cjs
+    - muffin
+    - nemo
+    - xdg-desktop-portal-xapp
+    - lightdm
+    - lightdm-gtk-greeter
+    - lightdm-slick-greeter
+    - accountsservice
+- name: "Deepin"
+  description: "Installs the Deepin desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - deepin
+    - deepin-extra
+    - deepin-anything-dkms
+    - deepin-anything-arch
+    - lightdm
+    - lightdm-gtk-greeter
+    - accountsservice
+- name: "i3"
+  description: "Installs the i3 window manager"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - i3
+    - lightdm
+    - lightdm-gtk-greeter
+    - accountsservice
+    - polybar
+    - nerd-fonts
+    - conky
+    - rofi
+    - nitrogen
+    - volumeicon
+    - networkmanager
+    - nm-connection-editor
+    - pavucontrol
+    - alacritty

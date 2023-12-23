@@ -1,0 +1,32 @@
+- name: "Stock Kernel"
+  description: "Stock kernel + Headers"
+  critical: false
+  hidden: false
+  selected: false
+  immutable: false
+  expanded: false
+  packages:
+    - linux
+    - linux-headers
+- name: "Custom Kernels"
+  description: "Custom Kernel + Headers"
+  critical: false
+  hidden: false
+  selected: false
+  immutable: false
+  expanded: false
+  packages:
+    - linux-zen
+    - linux-zen-headers
+    - linux-lts
+    - linux-lts-headers
+- name: "CPU uCodes"
+  description: "Installs CPU uCode"
+  critical: false
+  hidden: false
+  selected: false
+  immutable: false
+  expanded: false
+  packages:
+    - amd-ucode
+    - intel-ucode
