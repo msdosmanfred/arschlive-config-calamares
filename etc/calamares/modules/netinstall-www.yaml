@@ -3,7 +3,7 @@
   critical: false
   hidden: false
   selected: false
-  expanded: true
+  expanded: false
   packages:
     - firefox
     - firefox-i18n-ach
@@ -113,6 +113,6 @@
   critical: false
   hidden: false
   selected: false
-  expanded: true
+  expanded: false
   packages:
     - chromium

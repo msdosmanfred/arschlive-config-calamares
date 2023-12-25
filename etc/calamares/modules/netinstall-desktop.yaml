@@ -110,3 +110,6 @@
     - nm-connection-editor
     - pavucontrol
     - alacritty
+    - lxappearance
+    - qt5ct
+    - mate-polkit
