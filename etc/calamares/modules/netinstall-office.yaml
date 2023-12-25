@@ -1,9 +1,9 @@
-- name: "Libre Office"
-  description: "Installs Libre Office - choose fresh OR still, not both of them!"
+- name: "Libre Office fresh"
+  description: "Installs Libre Office fresh - conflicts with still!"
   critical: false
   hidden: false
   selected: false
-  expanded: true
+  expanded: false
   packages:
     - libreoffice-fresh
     - libreoffice-fresh-af
@@ -126,6 +126,14 @@
     - libreoffice-fresh-zh-cn
     - libreoffice-fresh-zh-tw
     - libreoffice-fresh-zu
+    - hunspell
+- name: "Libre Office still"
+  description: "Installs Libre Office still - conflicts with fresh!"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
     - libreoffice-still
     - libreoffice-still-af
     - libreoffice-still-am
