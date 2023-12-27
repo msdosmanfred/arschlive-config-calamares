@@ -43,6 +43,9 @@
     - xfce4-goodies
     - lightdm
     - lightdm-gtk-greeter
+    - arschlive-config-lightdm-git
+    - arschlive-xfce-settings-git
+    - network-manager-applet
     - accountsservice
 - name: "MATE"
   description: "Installs the MATE desktop"
@@ -54,6 +57,8 @@
     - mate-extra
     - lightdm
     - lightdm-gtk-greeter
+    - arschlive-config-lightdm-git
+    - network-manager-applet
     - accountsservice
 - name: "Cinnamon"
   description: "Installs the Cinnamon desktop"
@@ -76,6 +81,8 @@
     - lightdm
     - lightdm-gtk-greeter
     - lightdm-slick-greeter
+    - arschlive-config-lightdm-git
+    - network-manager-applet
     - accountsservice
 - name: "Deepin"
   description: "Installs the Deepin desktop"
@@ -89,6 +96,8 @@
     - deepin-anything-arch
     - lightdm
     - lightdm-gtk-greeter
+    - arschlive-config-lightdm-git
+    - network-manager-applet
     - accountsservice
 - name: "i3"
   description: "Installs the i3 window manager"
@@ -99,6 +108,8 @@
     - i3
     - lightdm
     - lightdm-gtk-greeter
+    - arschlive-config-lightdm-git
+    - network-manager-applet
     - accountsservice
     - polybar
     - nerd-fonts
