@@ -1,4 +1,4 @@
-- name: "Libre Office fresh"
+- name: "Libreoffice-fresh"
   description: "Installs Libre Office fresh - conflicts with still!"
   critical: false
   hidden: false
@@ -127,7 +127,7 @@
     - libreoffice-fresh-zh-tw
     - libreoffice-fresh-zu
     - hunspell
-- name: "Libre Office still"
+- name: "Libreoffice-still"
   description: "Installs Libre Office still - conflicts with fresh!"
   critical: false
   hidden: false
