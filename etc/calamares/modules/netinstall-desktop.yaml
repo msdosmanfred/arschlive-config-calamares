@@ -1,4 +1,4 @@
-- name: "KDE Plasma"
+- name: "KDE-Desktop"
   descriptionn: "Installs the KDE Plasma desktop"
   critical: false
   hidden: false
