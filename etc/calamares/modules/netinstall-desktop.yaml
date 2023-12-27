@@ -33,8 +33,9 @@
   packages:
     - gnome
     - gnome-extra
-- name: "Xfce"
-  description: "Installs the Xfce desktop"
+- name: "XFCE-Desktop"
+  description: "Installs the XFCE desktop"
+  description[de]: "Installiert den XFCE-Desktop"
   critical: false
   hidden: false
   selected: false
