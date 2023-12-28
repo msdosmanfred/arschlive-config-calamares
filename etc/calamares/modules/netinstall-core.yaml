@@ -84,4 +84,4 @@
         - pkgfile
         - rebuild-detector
         - reflector
-        - paru
+        - paru-bin
