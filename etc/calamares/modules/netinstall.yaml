@@ -84,3 +84,10 @@
         - rebuild-detector
         - reflector
         - paru-bin
+    - name: "Web browsers"
+      description: "Web browsers"
+      selected: true
+      packages:
+        - firefox
+        - firefox-i18n-$LOCALE
+        - chromium
