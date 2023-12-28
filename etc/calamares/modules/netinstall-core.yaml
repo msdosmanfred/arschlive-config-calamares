@@ -30,3 +30,58 @@
   packages:
     - amd-ucode
     - intel-ucode
+- name: "Desktop-Base + Common packages"
+  description: "Recommended. Don't change unless you know what you're doing."
+  hidden: false
+  selected: true
+  critical: true
+  subgroups:
+    - name: X11
+      description: "Default X11 system"
+      selected: true
+      packages:
+        - libwnck3
+        - mesa-utils
+        - xf86-input-libinput
+        - xorg-xdpyinfo
+        - xorg-server
+        - xorg-xinit
+        - xorg-xinput
+        - xorg-xkill
+        - xorg-xrandr
+        - xorg-apps
+    - name: "GPU drivers"
+      description: "Graphics hardware drivers"
+      selected: true
+      packages:
+        - xorg-drivers
+    - name: Network
+      description: "Network apps drivers and tools"
+      selected: true
+      packages:
+        - b43-fwcutter
+        - broadcom-wl-dkms
+        - dhclient
+        - dnsmasq
+        - dnsutils
+        - ethtool
+        - iwd
+        - modemmanager
+        - networkmanager
+        - networkmanager-openconnect
+        - networkmanager-openvpn
+        - nss-mdns
+        - openssh
+        - usb_modeswitch
+        - wpa_supplicant
+        - x12tpd
+    - name: "Package management"
+      description: "Packages tools"
+      selected: true
+      packages:
+        - downgrade
+        - pacman-contrib
+        - pkgfile
+        - rebuild-detector
+        - reflector
+        - paru

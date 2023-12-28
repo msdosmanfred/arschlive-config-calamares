@@ -1,7 +1,0 @@
----
-
-dontChroot: true
-
-script:
-  - "-rm -rf ${ROOT}/etc/mkinitcpio.conf.d"
-  - "-rm ${ROOT}/etc/mkinitcpio.d/linux.preset"
