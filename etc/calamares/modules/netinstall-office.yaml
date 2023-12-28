@@ -1,0 +1,6 @@
+- name: Libreoffice-fresh
+  selected: false
+  critical: true
+  packages:
+    - libreoffice-fresh
+    - libreoffice-fresh-$LOCALE
