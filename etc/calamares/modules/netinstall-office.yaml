@@ -2,7 +2,7 @@
 - name: "Libreoffice-fresh"
   description: "Installs LibreOffice fresh"
   description[de]: "Installiert LibreOffice fresh"
-  selected: true
+  selected: false
   critical: true
   packages:
     - libreoffice-fresh
@@ -10,7 +10,7 @@
 - name: "Libreoffice-still"
   description: "Installs LibreOffice still"
   description[de]: "Installiert LibreOffice still"
-  selected: true
+  selected: false
   critical: true
   packages:
     - libreoffice-still
