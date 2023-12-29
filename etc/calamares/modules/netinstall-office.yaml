@@ -1,1 +1,17 @@
-
+---
+- name: "Libreoffice-fresh"
+  description: "Installs LibreOffice fresh"
+  description[de]: "Installiert LibreOffice fresh"
+  selected: true
+  critical: true
+  packages:
+    - libreoffice-fresh
+    - libreoffice-fresh-$LOCALE
+- name: "Libreoffice-still"
+  description: "Installs LibreOffice still"
+  description[de]: "Installiert LibreOffice still"
+  selected: true
+  critical: true
+  packages:
+    - libreoffice-still
+    - libreoffice-still-$LOCALE
